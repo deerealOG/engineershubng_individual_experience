@@ -315,7 +315,7 @@ html {
   display: flex;
 }
 .dropdown {
-  position: relative;
+  position: absolute;
   top: 20vh;
   width: 100%;
   border-radius: 0;
@@ -349,7 +349,7 @@ html {
   padding-bottom: 50px;
   gap: 50px;
 
-  position: relative;
+  position: absolute;
   height: auto;
   top: 30vh;
 }
@@ -528,10 +528,12 @@ aside {
   }
 
   .dropdown {
-    top: 25vmin;
+    position: relative;
+    top: 25vh;
   }
   .category {
-    top: 35vmin;
+    position: absolute;
+    top: 35vh;
   }
   .category .title p {
     font-family: "Poppins";
