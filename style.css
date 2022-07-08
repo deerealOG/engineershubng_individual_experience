@@ -316,7 +316,7 @@ html {
 }
 .dropdown {
   position: relative;
-  top: 20vmax;
+  top: 20vh;
   width: 100%;
   border-radius: 0;
 }
@@ -351,7 +351,7 @@ html {
 
   position: relative;
   height: auto;
-  top: 30vmax;
+  top: 30vh;
 }
 .category .title {
   display: flex;
